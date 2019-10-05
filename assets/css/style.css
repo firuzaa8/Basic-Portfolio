@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/tiny-squares.png");
+}
+header {
+    background-color: lightskyblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    width: 250px;
+    font-size: 16px;
+    text-align: center;
+    color: lightyellow;
+    margin-left: 150px;
+    float:left;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+.footer,
+.push {
+    height: 50px;
+    background-color: lightskyblue;
+}
+nav {
+    background-color: white;
+    overflow:hidden;
+    border-bottom: 5px solid lightskyblue;
+}
+nav a {
+padding: 0px 20px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: 16px;
+text-decoration-line: none;
+color: darkgrey;
+font-weight: bold;
+}
+nav a:hover {
+    background-color:black;
+    color:white;
+}
+#links {
+    float:right;
+    margin-top:45px;
+}
